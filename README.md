@@ -1,0 +1,1 @@
+# Webpack starter kit to create Vanilla JS applications
