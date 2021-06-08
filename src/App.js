@@ -1,12 +1,21 @@
-import _ from "lodash"
 import "./App.css";
-import Logo from "./logo.svg";
+import Logo from "./logo.png";
 
-const App = ({ name }) => {
+const App = () => {
   return `
-  <img src="${Logo}" alt="builder icon"/>
-  <h2> ${_.join(["Welcome,", name], " ")} </h2>
-  <p> Creating vanilla JS applications with modern tooling. This app can be used as a starter kit!</p>`
+  <h1> Create JavaScript App </h1>
+  <div class="js-container"> 
+    <img class="logo" src="${Logo}" alt="builder icon"/>
+  </div>
+  <div id="starter-content">
+  <button id="start">Get Started</button>
+  </div>
+  `;
+};
+
+export const Starter = () => {
+  return `
+    <h2>Edit src/App.js and save to reload.</h2>`;
 };
 
 export default App;

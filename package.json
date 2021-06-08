@@ -15,7 +15,6 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "SupMinn",
-	"license": "MIT",
 	"devDependencies": {
 		"@babel/core": "^7.14.2",
 		"@babel/preset-env": "^7.14.2",

@@ -1,13 +1,65 @@
-h1{
-    color: royalblue;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap');
 
-h2{
-    color: orangered;
-}
-
-body{
+body {
+    font-family: 'Merriweather', serif;
     background-color: rgb(49, 46, 46);
     color: rgb(202, 199, 199);
+    margin: auto;
+    text-align: center;
 }
 
+.js-container {
+    height: 20rem;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+    position: relative;
+    animation: jslogo 5s infinite;
+}
+
+
+@keyframes jslogo {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 5rem;
+        top: 5rem;
+    }
+
+    50% {
+        left: 0rem;
+        top: 10rem;
+    }
+
+    75% {
+        left: -5rem;
+        top: 5rem;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+h1 {
+    color: rgb(111, 146, 252);
+}
+
+h2 {
+    color: rgb(252, 110, 58);
+}
+
+button{
+    width: 10rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    background-color: rgb(202, 199, 199);
+
+}

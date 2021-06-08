@@ -1,8 +1,21 @@
 import App from "./App";
 
-const root = document.getElementById("root");
+let root;
 
-root.innerHTML = `
-<h1> Learning web tooling for CJA
-${App({name:"Supriya"})}
-`;
+function init() {
+  root = document.getElementById("root");
+  root.innerHTML = `
+${App()}`;
+}
+
+init();
+
+const button = document.querySelector("#start");
+button.addEventListener("click", getStarted);
+
+function getStarted() {
+  import("./App").then(({ Starter }) => {
+    const starter = Starter();
+    document.querySelector("#starter-content").innerHTML = starter;
+  });
+}
