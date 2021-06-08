@@ -59,7 +59,8 @@ button{
     width: 10rem;
     padding: 0.5rem;
     font-weight: 600;
+    font-size: 1em;
     border-radius: 0.5rem;
-    background-color: rgb(202, 199, 199);
+    background-color: rgb(228, 224, 224);
 
 }
