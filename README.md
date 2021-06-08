@@ -73,8 +73,13 @@ So we're using webpack to bundle our modular application which yields a deployab
 
 Read more about [caching](https://webpack.js.org/guides/caching/#output-filenames)
 
-> ## HTML Optimization
+ ## HTML Optimization
 
 The `HtmlWebpackPlugin` simplifies the creation of HTML files to serve all the webpack bundles. This plugin generates a HTML5 file includes all the webpack bundles within &lt;body&gt; using &lt;script&gt; tag.
 
 Read more about [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin).
+
+## Starter kit demo
+
+https://user-images.githubusercontent.com/30731236/121202814-37fce380-c893-11eb-9c2b-d8168c8024ec.mp4
+
